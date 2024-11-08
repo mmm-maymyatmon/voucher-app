@@ -1,15 +1,17 @@
 import React from 'react'
 import ModuleBtn from '../components/ModuleBtn';
 import { Container } from '../components/Container';
-import { HiCircleStack } from "react-icons/hi2";
+import { HiCircleStack, HiUserCircle } from "react-icons/hi2";
 import { HiDocumentDuplicate } from "react-icons/hi2";
 import { HiComputerDesktop } from "react-icons/hi2";
+import Logout from '../components/Logout';
+
 const DashboardPage = () => {
   return (
     <section>
         
         <Container>
-            <div className='grid gird-cols-1 md:grid-cols-3 grid-rows-3 gap-5'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-5 text-center'>
                 <div className='col-span-1 row-span-1'>
                     <ModuleBtn name={"Product Module"} icon={ <HiCircleStack className='size-14' /> } url={"/dashboard/product"} />
                 </div>
@@ -19,6 +21,14 @@ const DashboardPage = () => {
                 <div className='col-span-1 row-span-1'>
                     <ModuleBtn name={"Voucher Module"} icon={<HiDocumentDuplicate className='size-14' />} url={"/dashboard/voucher"} />
                 </div>
+                <div className='col-span-1 row-span-1'>
+                    <ModuleBtn name={"User Profile"} icon={<HiUserCircle className='size-14' />} url={"/dashboard/user-profile"} />
+                </div>
+            </div>
+
+            <div className='mt-5 flex items-center justify-end gap-3'>
+                <p>if you finish your work, just</p>
+            <Logout/>
             </div>
         </Container>
     </section>

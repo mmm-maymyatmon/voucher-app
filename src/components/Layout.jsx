@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import { Outlet, Navigate } from 'react-router-dom'
 import toast, { Toaster } from 'react-hot-toast'
-import { useCookie } from 'react-use-cookie'
+import useCookie from 'react-use-cookie'
 
 const Layout = () => {
   const [token] = useCookie("my_token");

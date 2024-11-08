@@ -11,6 +11,10 @@ import VoucherDetailPage from "./pages/VoucherDetailPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
+import UserProfilePage from "./pages/UserProfilePage";
+import UserProfileChangeNamePage from "./pages/UserProfileChangeNamePage";
+import UserProfileChangePasswordPage from "./pages/UserProfileChangePasswordPage";
+import UserProfileChangeImagePage from "./pages/UserProfileChangeImagePage";
 
 const router = createBrowserRouter([
     {
@@ -57,6 +61,28 @@ const router = createBrowserRouter([
                     {
                         path: "voucher/detail/:id",
                         element: <VoucherDetailPage/>
+                    }, 
+                    {
+                        path: "user-profile",
+                        children: [
+                            {
+                                index: true,
+                                element: <UserProfilePage />
+
+                            }, 
+                            {
+                                path: "user-change-name",
+                                element: <UserProfileChangeNamePage />
+                            },
+                            {
+                                path: "user-change-password",
+                                element: <UserProfileChangePasswordPage />
+                            },
+                            {
+                                path: "user-change-image",
+                                element: <UserProfileChangeImagePage />       
+                            }
+                        ]
                     }
                 ]
             }
