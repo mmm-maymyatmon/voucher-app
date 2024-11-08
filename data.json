@@ -1,0 +1,385 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Front-End Development",
+      "price": 1500,
+      "created_at": "2024-09-20T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "product_name": "Back-End Development",
+      "price": 2500,
+      "created_at": "2024-09-21T10:15:00Z"
+    },
+    {
+      "id": 3,
+      "product_name": "Full-Stack Development",
+      "price": 4000,
+      "created_at": "2024-09-22T11:30:00Z"
+    },
+    {
+      "id": 4,
+      "product_name": "UI/UX Design",
+      "price": 2000,
+      "created_at": "2024-09-23T12:45:00Z"
+    },
+    {
+      "id": 5,
+      "product_name": "WordPress Development",
+      "price": 1800,
+      "created_at": "2024-09-24T13:00:00Z"
+    },
+    {
+      "id": 6,
+      "product_name": "iOS Development",
+      "price": 3000,
+      "created_at": "2024-09-25T14:15:00Z"
+    },
+    {
+      "id": 8,
+      "product_name": "Cross-Platform Development",
+      "price": 3200,
+      "created_at": "2024-09-27T16:45:00Z"
+    },
+    {
+      "id": 9,
+      "product_name": "Game Development",
+      "price": 2200,
+      "created_at": "2024-09-28T18:00:00Z"
+    },
+    {
+      "id": 10,
+      "product_name": "Mobile App Development",
+      "price": 2800,
+      "created_at": "2024-09-29T19:15:00Z"
+    }
+  ],
+  "vouchers": [
+    {
+      "voucher_id": "INV20241012809575",
+      "customer_name": "kyaw kyaw",
+      "customer_email": "kyaw@gmail.com",
+      "sale_date": "2024-10-12",
+      "remember": true,
+      "records": [
+        {
+          "id": 1728752214913,
+          "product": {
+            "id": 2,
+            "product_name": "Back-End Development",
+            "price": 2500,
+            "created_at": "2024-09-21T10:15:00Z"
+          },
+          "quantity": 5,
+          "cost": 12500,
+          "created_at": "2024-10-12T16:56:54.913Z"
+        },
+        {
+          "id": 1728752219817,
+          "product": {
+            "id": 5,
+            "product_name": "WordPress Development",
+            "price": 1800,
+            "created_at": "2024-09-24T13:00:00Z"
+          },
+          "quantity": 6,
+          "cost": 10800,
+          "created_at": "2024-10-12T16:56:59.817Z"
+        }
+      ],
+      "total": 23300,
+      "tax": 1631.0000000000002,
+      "netTotal": 24931,
+      "id": 1
+    },
+    {
+      "voucher_id": "INV20241012358923",
+      "customer_name": "mg mg",
+      "customer_email": "mgmg@gmail.com",
+      "sale_date": "2024-10-12",
+      "remember": true,
+      "records": [
+        {
+          "id": 1728754071337,
+          "product": {
+            "id": 4,
+            "product_name": "UI/UX Design",
+            "price": 2000,
+            "created_at": "2024-09-23T12:45:00Z"
+          },
+          "quantity": 9,
+          "cost": 18000,
+          "created_at": "2024-10-12T17:27:51.337Z"
+        },
+        {
+          "id": 1728754076649,
+          "product": {
+            "id": 3,
+            "product_name": "Full-Stack Development",
+            "price": 4000,
+            "created_at": "2024-09-22T11:30:00Z"
+          },
+          "quantity": "4",
+          "cost": 16000,
+          "created_at": "2024-10-12T17:27:56.649Z"
+        },
+        {
+          "id": 1728754078721,
+          "product": {
+            "id": 5,
+            "product_name": "WordPress Development",
+            "price": 1800,
+            "created_at": "2024-09-24T13:00:00Z"
+          },
+          "quantity": 7,
+          "cost": 12600,
+          "created_at": "2024-10-12T17:27:58.721Z"
+        }
+      ],
+      "total": 46600,
+      "tax": 3262.0000000000005,
+      "netTotal": 49862,
+      "id": 2
+    },
+    {
+      "voucher_id": "INV20241016491800",
+      "customer_name": "Ma Ma",
+      "customer_email": "mama@gmail.com",
+      "sale_date": "2024-10-16",
+      "remember": true,
+      "records": [
+        {
+          "id": 1729064154388,
+          "product": {
+            "id": 3,
+            "product_name": "Full-Stack Development",
+            "price": 4000,
+            "created_at": "2024-09-22T11:30:00Z"
+          },
+          "quantity": 6,
+          "cost": 24000,
+          "created_at": "2024-10-16T07:35:54.388Z"
+        },
+        {
+          "id": 1729064157875,
+          "product": {
+            "id": 2,
+            "product_name": "Back-End Development",
+            "price": 2500,
+            "created_at": "2024-09-21T10:15:00Z"
+          },
+          "quantity": "3",
+          "cost": 7500,
+          "created_at": "2024-10-16T07:35:57.875Z"
+        },
+        {
+          "id": 1729064160978,
+          "product": {
+            "id": 1,
+            "product_name": "Front-End Development",
+            "price": 1500,
+            "created_at": "2024-09-20T09:00:00Z"
+          },
+          "quantity": "2",
+          "cost": 3000,
+          "created_at": "2024-10-16T07:36:00.978Z"
+        },
+        {
+          "id": 1729064163804,
+          "product": {
+            "id": 6,
+            "product_name": "iOS Development",
+            "price": 3000,
+            "created_at": "2024-09-25T14:15:00Z"
+          },
+          "quantity": "3",
+          "cost": 9000,
+          "created_at": "2024-10-16T07:36:03.804Z"
+        },
+        {
+          "id": 1729064169098,
+          "product": {
+            "id": 8,
+            "product_name": "Cross-Platform Development",
+            "price": 3200,
+            "created_at": "2024-09-27T16:45:00Z"
+          },
+          "quantity": 11,
+          "cost": 35200,
+          "created_at": "2024-10-16T07:36:09.098Z"
+        },
+        {
+          "id": 1729064172306,
+          "product": {
+            "id": 5,
+            "product_name": "WordPress Development",
+            "price": 1800,
+            "created_at": "2024-09-24T13:00:00Z"
+          },
+          "quantity": "3",
+          "cost": 5400,
+          "created_at": "2024-10-16T07:36:12.306Z"
+        },
+        {
+          "id": 1729064177274,
+          "product": {
+            "id": 10,
+            "product_name": "Mobile App Development",
+            "price": 2800,
+            "created_at": "2024-09-29T19:15:00Z"
+          },
+          "quantity": "4",
+          "cost": 11200,
+          "created_at": "2024-10-16T07:36:17.274Z"
+        }
+      ],
+      "total": 95300,
+      "tax": 6671.000000000001,
+      "netTotal": 101971,
+      "id": 3
+    },
+    {
+      "voucher_id": "INV20241016682713",
+      "customer_name": "dfadf",
+      "customer_email": "3333",
+      "sale_date": "2024-10-16",
+      "redirect_to_detail": true,
+      "remember": true,
+      "records": [
+        {
+          "id": 1729065069800,
+          "product": {
+            "id": 3,
+            "product_name": "Full-Stack Development",
+            "price": 4000,
+            "created_at": "2024-09-22T11:30:00Z"
+          },
+          "quantity": "33",
+          "cost": 132000,
+          "created_at": "2024-10-16T07:51:09.800Z"
+        }
+      ],
+      "total": 132000,
+      "tax": 9240,
+      "netTotal": 141240,
+      "id": 4
+    },
+    {
+      "voucher_id": "INV20241016430619",
+      "customer_name": "dfadf",
+      "customer_email": "2e23",
+      "sale_date": "2024-10-16",
+      "redirect_to_detail": true,
+      "remember": true,
+      "records": [
+        {
+          "id": 1729065117010,
+          "product": {
+            "id": 4,
+            "product_name": "UI/UX Design",
+            "price": 2000,
+            "created_at": "2024-09-23T12:45:00Z"
+          },
+          "quantity": "2",
+          "cost": 4000,
+          "created_at": "2024-10-16T07:51:57.010Z"
+        },
+        {
+          "id": 1729065121147,
+          "product": {
+            "id": 3,
+            "product_name": "Full-Stack Development",
+            "price": 4000,
+            "created_at": "2024-09-22T11:30:00Z"
+          },
+          "quantity": "2",
+          "cost": 8000,
+          "created_at": "2024-10-16T07:52:01.147Z"
+        }
+      ],
+      "total": 12000,
+      "tax": 840.0000000000001,
+      "netTotal": 12840,
+      "id": 5
+    },
+    {
+      "voucher_id": "INV20241016169382",
+      "customer_name": "ewrwer",
+      "customer_email": "432534",
+      "sale_date": "2024-10-16",
+      "redirect_to_detail": true,
+      "remember": true,
+      "records": [
+        {
+          "id": 1729065149076,
+          "product": {
+            "id": 4,
+            "product_name": "UI/UX Design",
+            "price": 2000,
+            "created_at": "2024-09-23T12:45:00Z"
+          },
+          "quantity": "1",
+          "cost": 2000,
+          "created_at": "2024-10-16T07:52:29.076Z"
+        }
+      ],
+      "total": 2000,
+      "tax": 140,
+      "netTotal": 2140,
+      "id": 6
+    },
+    {
+      "voucher_id": "INV20241016955729",
+      "customer_name": "mg mg",
+      "customer_email": "mgmg@gmail.com",
+      "sale_date": "2024-09-30",
+      "redirect_to_detail": true,
+      "remember": true,
+      "records": [
+        {
+          "id": 1729065287764,
+          "product": {
+            "id": 2,
+            "product_name": "Back-End Development",
+            "price": 2500,
+            "created_at": "2024-09-21T10:15:00Z"
+          },
+          "quantity": "2",
+          "cost": 5000,
+          "created_at": "2024-10-16T07:54:47.764Z"
+        }
+      ],
+      "total": 5000,
+      "tax": 350.00000000000006,
+      "netTotal": 5350,
+      "id": 7
+    },
+    {
+      "voucher_id": "INV20241016306275",
+      "customer_name": "mg mg",
+      "customer_email": "mgmg@gmail.com",
+      "sale_date": "2024-10-16",
+      "redirect_to_detail": true,
+      "remember": true,
+      "records": [
+        {
+          "id": 1729065355592,
+          "product": {
+            "id": 3,
+            "product_name": "Full-Stack Development",
+            "price": 4000,
+            "created_at": "2024-09-22T11:30:00Z"
+          },
+          "quantity": "3",
+          "cost": 12000,
+          "created_at": "2024-10-16T07:55:55.592Z"
+        }
+      ],
+      "total": 12000,
+      "tax": 840.0000000000001,
+      "netTotal": 12840,
+      "id": 8
+    }
+  ]
+}
