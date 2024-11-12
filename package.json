@@ -11,6 +11,7 @@
     "api": "json-server --watch data.json --port 5000 --delay 500"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
     "axios": "^1.7.7",
     "flowbite": "^2.5.1",
     "html2pdf.js": "^0.10.2",
